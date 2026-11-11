@@ -1,5 +1,6 @@
 # CareerVeda Placement Operations ERP
 
-- [ ] Establish secure Cloud authentication, employee profiles, and separate system roles.
-- [ ] Build a usable placement operations workspace covering pipeline, calls, interviews, assignments, and EOD.
-- [ ] Validate the database permissions, app routes, and primary user flow.
+- [ ] Document Phase 1 architecture, ER diagram, role-permission matrix, and full implementation roadmap.
+- [ ] Implement invitation-only authentication, employee profiles, system roles, responsibilities, teams, and RLS.
+- [ ] Build the role-aware Phase 1 dashboard, staff directory, team management, and access controls.
+- [ ] Verify migrations, permission rules, tests, and signed-in desktop/mobile flows.
