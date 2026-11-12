@@ -1,5 +1,13 @@
 {
   "version": "7",
   "dialect": "postgresql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1794449144454,
+      "tag": "0000_careerveda_erp_phase1_foundation",
+      "breakpoints": true
+    }
+  ]
 }

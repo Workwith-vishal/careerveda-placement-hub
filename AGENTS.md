@@ -28,3 +28,10 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Architecture Decisions
+
+- Keep the CareerVeda ERP rollout phase-based, using TanStack Start with Lovable Cloud for app-owned persistent data; this preserves the approved deployment and staged delivery approach.
+- Keep employee identity in `public.profiles`, system grants in `public.user_roles`, and operational responsibilities in separate assignment records; these permissions must not be inferred from editable user metadata.
+- Enforce ownership, team, and organization access in database row policies and authenticated server functions; hiding workspace controls is not an authorization boundary.
+- Keep staff enrollment invitation-only, disable public registration, and never invent or automatically elevate a first Super Admin; the trusted owner must assign that initial role deliberately.
